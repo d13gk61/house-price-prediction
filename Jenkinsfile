@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment{
-        registry = 'fullstackdatascience/house-price-prediction-api'
+        registry = 'daockbn/house-price-prediction-api:1.0'
         registryCredential = 'dockerhub'      
     }
 
