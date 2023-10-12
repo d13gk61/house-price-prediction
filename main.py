@@ -45,5 +45,5 @@ def predict(data : HouseInfo):
         )
     )[0]
      
-    # Return the result
+    # Return the result.
     return { 'price' : price}
